@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <group>
+        <include file="$(find turtlebot3_bringup)/launch/turtlebot3_robot.launch" />
+    </group>
+    <node pkg="turtlebot3_sample" name="python_sample" output="screen" type="main.py" />
+</launch>
